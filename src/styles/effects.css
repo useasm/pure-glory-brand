@@ -1,0 +1,33 @@
+/* Motion, elevation and texture tokens. */
+
+:root {
+  --ease-editorial: cubic-bezier(0.16, 0.84, 0.44, 1);
+  --ease-in-out: cubic-bezier(0.65, 0, 0.35, 1);
+  --dur-fast: 220ms;
+  --dur-base: 560ms;
+  --dur-slow: 900ms;
+
+  --shadow-card:
+    0 1px 2px oklch(0.17 0.008 50 / 0.05),
+    0 18px 40px -12px oklch(0.17 0.008 50 / 0.12);
+  --shadow-raised:
+    0 2px 4px oklch(0.17 0.008 50 / 0.06),
+    0 32px 64px -16px oklch(0.17 0.008 50 / 0.18);
+
+  --border-w: 1px;
+}
+
+/* Film grain overlay for full-bleed image blocks. */
+.pg-grain {
+  position: relative;
+  isolation: isolate;
+}
+.pg-grain::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  opacity: 0.05;
+  mix-blend-mode: overlay;
+  background-image: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='120' height='120'><filter id='n'><feTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/></filter><rect width='100%25' height='100%25' filter='url(%23n)'/></svg>");
+}

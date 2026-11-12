@@ -1,0 +1,43 @@
+/* Color tokens. Warm concrete neutrals taken from the garment photos and the
+   "Downpour" painting; oxblood, gold and rain-teal are rare accents. */
+
+:root {
+  /* base neutrals */
+  --pg-ink:        oklch(0.17 0.008 50);   /* primary text, deep garments */
+  --pg-charcoal:   oklch(0.27 0.007 50);   /* secondary dark surfaces */
+  --pg-graphite:   oklch(0.42 0.006 50);   /* secondary text */
+  --pg-concrete:   oklch(0.58 0.006 50);   /* muted text, dividers */
+  --pg-smoke:      oklch(0.74 0.005 60);   /* disabled, faint lines */
+  --pg-bone:       oklch(0.90 0.008 70);   /* card surface on ivory bg */
+  --pg-ivory:      oklch(0.96 0.010 75);   /* page background */
+  --pg-paper:      oklch(0.985 0.005 80);  /* lightest surface, paper white */
+
+  /* accents, at most one per composition */
+  --pg-oxblood:       oklch(0.33 0.10 25); /* burgundy paint / thread */
+  --pg-oxblood-deep:  oklch(0.20 0.075 20);
+  --pg-gold:          oklch(0.74 0.10 85); /* aged gold foil */
+  --pg-gold-deep:     oklch(0.52 0.09 80);
+  --pg-rain:          oklch(0.46 0.03 200);/* teal-grey — art/editorial block only */
+
+  /* semantic aliases */
+  --surface-bg:            var(--pg-ivory);
+  --surface-card:          var(--pg-paper);
+  --surface-inverse:       var(--pg-ink);
+  --surface-inverse-raised: var(--pg-charcoal);
+
+  --text-primary:   var(--pg-ink);
+  --text-secondary: var(--pg-graphite);
+  --text-muted:     var(--pg-concrete);
+  --text-inverse:   var(--pg-ivory);
+  --text-inverse-muted: var(--pg-smoke);
+
+  --border-hairline:          oklch(0.17 0.008 50 / 0.13);
+  --border-hairline-strong:   oklch(0.17 0.008 50 / 0.28);
+  --border-hairline-inverse:  oklch(0.96 0.010 75 / 0.18);
+
+  --accent-primary:   var(--pg-oxblood);
+  --accent-secondary: var(--pg-gold);
+
+  --link:       var(--pg-ink);
+  --link-hover: var(--pg-oxblood);
+}

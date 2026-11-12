@@ -1,0 +1,36 @@
+/* Typography tokens. Cormorant Garamond italic for display, Archivo for UI.
+   Both are loaded from Google Fonts in index.html. */
+
+:root {
+  --font-display: 'Cormorant Garamond', 'Times New Roman', Georgia, serif;
+  --font-sans: 'Archivo', 'Helvetica Neue', Arial, sans-serif;
+
+  /* display: always italic serif */
+  --fs-display-xl: clamp(3.4rem, 3rem + 6vw, 9.5rem);
+  --fs-display-l:  clamp(2.6rem, 2.2rem + 4vw, 6rem);
+  --fs-display-m:  clamp(1.9rem, 1.6rem + 2vw, 3.4rem);
+
+  /* headings: sans, upright */
+  --fs-heading-l: clamp(1.5rem, 1.3rem + 1vw, 2.1rem);
+  --fs-heading-m: 1.375rem;
+  --fs-heading-s: 1.125rem;
+
+  /* body and labels */
+  --fs-body-l: 1.1875rem;
+  --fs-body:   1rem;
+  --fs-small:  0.875rem;
+  --fs-micro:  0.6875rem;
+
+  --lh-display: 1.05;
+  --lh-heading: 1.15;
+  --lh-body: 1.6;
+  --lh-tight: 1.25;
+
+  --ls-eyebrow: 0.16em;
+  --ls-nav: 0.02em;
+  --ls-tight: -0.01em;
+
+  --weight-regular: 400;
+  --weight-medium: 500;
+  --weight-semibold: 600;
+}

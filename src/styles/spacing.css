@@ -1,0 +1,27 @@
+/* Spacing and grid tokens, 4px base unit. */
+
+:root {
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+  --space-10: 128px;
+
+  --space-section: clamp(72px, 6vw + 24px, 160px);
+  --space-gutter: clamp(20px, 4vw, 64px);
+
+  --container-max: 1560px;
+  --container-narrow: 760px;
+
+  --grid-cols: 12;
+  --grid-gap: clamp(12px, 1.4vw, 24px);
+
+  --radius-none: 0px;
+  --radius-hair: 2px;
+  --radius-pill: 999px;
+}
