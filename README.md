@@ -1,14 +1,23 @@
 # Pure Glory — storefront showcase
 
-A concept storefront for [Pure Glory](https://t.me/pureglorybrand), a Telegram
-channel run by one designer and tailor who makes one-off, hand-finished
-clothes.
+A fan-made concept storefront for [Pure Glory](https://t.me/pureglorybrand), a
+Telegram channel run by one designer and tailor who makes one-off,
+hand-finished clothes.
 
-> **This is a showcase, not a real store.** I built it for free as a test
-> project and a reusable template. Nobody paid for it, nothing is sold through
-> it, and there is no backend behind the checkout. Product names, prices,
-> collections, the history timeline and all the copy are placeholder content
-> written for the demo. To actually buy something, go to the Telegram channel.
+> [!IMPORTANT]
+> **This is an unofficial fan project.**
+>
+> - I am not affiliated with Pure Glory in any way. I don't work for the
+>   author of the channel and I don't speak for him.
+> - I wasn't paid for this and I'm not asking for money, neither for the work
+>   nor for the clothes. Nothing is sold through this site and the checkout
+>   has no backend behind it.
+> - It exists for one reason: to show what I can build and how I build it. It
+>   doubles as a template anyone can reuse.
+> - Product names, prices, collections, the history timeline and all the copy
+>   are demo content I wrote for the showcase, not statements by Pure Glory.
+>
+> If you want to actually buy something, go to the Telegram channel.
 
 ## What's inside
 

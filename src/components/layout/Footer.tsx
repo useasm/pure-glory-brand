@@ -142,7 +142,7 @@ export function Footer() {
         </div>
 
         <div
-          className="mt-16 flex flex-wrap items-center justify-between gap-3 pt-6"
+          className="mt-16 flex flex-col gap-3 pt-6"
           style={{
             borderTop: '1px solid var(--border-hairline-inverse)',
             color: 'var(--text-inverse-muted)',
@@ -150,8 +150,24 @@ export function Footer() {
             letterSpacing: 'var(--ls-nav)',
           }}
         >
-          <span>© {new Date().getFullYear()} Pure Glory</span>
-          <span className="eyebrow">Concept showcase — not an official store</span>
+          <span className="eyebrow" style={{ color: 'var(--text-inverse)' }}>
+            Unofficial fan project — not an official store
+          </span>
+          <p className="m-0 max-w-[90ch]" style={{ lineHeight: 'var(--lh-body)' }}>
+            This site is not affiliated with Pure Glory. Nothing here is for
+            sale, and no money is asked for the site or for the clothes. It
+            was made only as a portfolio piece, to show what its developer can
+            build. Names, prices and texts are demo content. The real thing
+            lives in the{' '}
+            <a
+              href="https://t.me/pureglorybrand"
+              className="footer-link"
+              style={{ fontSize: 'inherit' }}
+            >
+              Telegram channel
+            </a>
+            .
+          </p>
         </div>
       </div>
     </footer>
